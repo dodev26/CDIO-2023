@@ -1,0 +1,50 @@
+.service-secondary-item {
+  cursor: pointer;
+}
+.service-secondary-item h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.service-secondary-item-img {
+  width: 100%;
+  height: 150px;
+}
+.service-secondary-item-img img {
+  object-fit: cover;
+  object-position: center;
+  border-radius: 15px;
+}
+.service-secondary-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.service-secondary-footer span {
+  color: #000;
+  font-size: 14px;
+  flex: 1;
+}
+.service-secondary-button {
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.service-secondary-item:hover .service-secondary-button {
+  background-color: purple;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.service-secondary-item:hover > h3 {
+  color: purple;
+  transition: all 0.3s ease-in-out;
+}

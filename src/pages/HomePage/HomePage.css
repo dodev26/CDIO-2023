@@ -1,0 +1,108 @@
+.section-banner-home {
+  background-image: url("../../assets/banner-home.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.section-banner-home .container {
+  height: 100%;
+}
+.title-slogan {
+  color: white;
+  position: absolute;
+  z-index: 1;
+  bottom: 100px;
+}
+.title-slogan > h1 {
+  font-size: 60px;
+  color: inherit;
+  font-weight: 700;
+  font-family: "Birthstone", cursive;
+}
+.title-slogan > div {
+  font-size: 30px;
+  color: inherit;
+  font-weight: 400;
+  font-family: "Birthstone", cursive;
+  color: #eddced;
+  line-spacing: 1.5;
+}
+.section-about,
+.section-services {
+  background-color: #eddced;
+  padding: 50px 0;
+}
+.section-about .container {
+  display: flex;
+  column-gap: 40px;
+}
+.section-about .container .about-content h2 {
+  font-size: 60px;
+  color: inherit;
+  text-align: left;
+  font-weight: 400;
+  color: purple;
+  font-family: "Birthstone", cursive;
+}
+.section-about .container .about-content p {
+  font-size: 25px;
+  color: inherit;
+  font-weight: 400;
+  font-family: "Birthstone", cursive;
+  color: #5a5a5a;
+  line-spacing: 1.5;
+}
+
+.section-about .container .about-content button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: purple;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Birthstone", cursive;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  margin-top: 20px;
+}
+.section-about .container .about-img {
+  flex-shrink: 0;
+  width: 350px;
+  height: 350px;
+}
+.section-about .container .about-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section-services .container .title h2 {
+  font-size: 60px;
+  color: inherit;
+  text-align: center;
+  font-weight: 400;
+  color: purple;
+  font-family: "Birthstone", cursive;
+}
+.section-services .container .title p {
+  font-size: 25px;
+  color: inherit;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Birthstone", cursive;
+  color: #5a5a5a;
+  line-spacing: 1.5;
+  margin-top: 20px;
+}
+.section-services .container .services-category {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 40px;
+  margin-top: 50px;
+}

@@ -1,0 +1,9 @@
+.section-banner-services {
+  background-image: url("../../assets/banner-services.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
